@@ -43,3 +43,4 @@ addbook.addEventListener("click",function(event){
 function deletebook(event){
     event.target.parentElement.remove()
 }
+document.addEventListener("contextmenu", (event) => event.preventDefault());
